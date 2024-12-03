@@ -1,5 +1,8 @@
 #
 
+`module.js` was created via `p tsc module.ts --sourceMap`.
+That sourcemaps in `module.js` work is verified by running `node --enable-source-maps module.js`.
+
 Execution with `runInThisContext`
 
 ```bash
@@ -17,6 +20,7 @@ Error: Boom
 ```
 
 Standalone execution
+
 ```bash
 $ node --enable-source-maps module.js
 ~/module.ts:4
